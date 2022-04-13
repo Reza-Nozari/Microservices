@@ -1,0 +1,32 @@
+﻿-> docker ps //check run docker 
+-> docker pull mongo //get mongo image from 'hub.docker.com' 
+-> docker run -d -p 27017:27017 --name shopping-mongo  mongo
+-> docker logs -f shopping-mongo
+-> docker exec -it shopping-mongo /bin/bash
+-> ls  // you can see folder or file inside of container
+-> mongo // display detail mongo database
+->show dbs // display lotof exist databse in mongo 
+->use CatalogDb // create new databse 
+->db.createCollection('Products')  //create a new collection inside of the catalog DB databse
+->db.Products.insertMany(
+  [
+       {
+          "Name":"Shoes",
+          "Catalog":"Clothes",
+          "Description"":"Blue and yellow"
+          "ImageFile":"image file",
+          "Price": 20.22
+       } 
+  ]
+)
+
+->db.Products.find({})
+
+->db.Products.remove({})
+
+->show collections
+
+->db.Products.find({}).pretty()
+
+
+
