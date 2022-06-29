@@ -1,0 +1,4 @@
+portainer {
+ user:admin
+ passsword:admin123456789
+}
