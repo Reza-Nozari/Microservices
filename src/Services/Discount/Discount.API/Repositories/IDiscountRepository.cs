@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Discount.API.Repositories
 {
-    public interface ICouponRepository
+    public interface IDiscountRepository
     {
         Task<Coupon> GetDiscount(string productName);
         Task<bool> CreateDiscount(Coupon coupon);
