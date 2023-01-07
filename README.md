@@ -1,7 +1,7 @@
 
 ## Authors
 Mohammadreza Nozari (Email: mohammadreza.nozari@yahoo.com)
-- [@linkedin](https://www.linkedin.com/in/mohammadreza-nozari/)
+- [@linkedin](https://www.linkedin.com/in/mrnozari/)
 
 
 ## 🚀 About Me
@@ -15,7 +15,7 @@ workplaces, from a company of three to large organizations with cross-functional
 
 
 
-![Logo](https://raw.githubusercontent.com/devnozari/Microservices/main/Microservice-1.png)
+![Image](https://raw.githubusercontent.com/devnozari/Microservices/main/Microservice-1.png)
 
 
 
